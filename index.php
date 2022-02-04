@@ -74,7 +74,7 @@
                         <td><?php echo date('d/m/y', strtotime($dados['fechamento'])) ?></td>
                         <td><?php echo $dados['desc_fech'] ?></td>
                         <td><?php echo $dados['resp_chamado'] ?></td>
-                        <td><a type="submit" class="btn btn-danger btn-sm" href="index.php?del=<?php echo $dados['id'] ?>" onclick="confirmaExclusao()"><i class="material-icons">delete_forever</i></a></td>
+                        <td><a type="submit" class="btn btn-danger btn-sm" href="apagar.php?del=<?php echo $dados['id'] ?>" onclick="confirmaExclusao()"><i class="material-icons">delete_forever</i></a></td>
                     </tr>
                 <?php } 
 
